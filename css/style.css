@@ -1,0 +1,36 @@
+#home {
+    background: #ffc107;
+    color: #fff;
+}
+
+.caixa {
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5 ;
+}
+
+ion-icon {
+    font-size: 150%;
+}
+
+@media(max-width: 575.8px) {
+
+    section>div>div>div>div>a {
+        position: relative;
+        left: 35%;
+        scale: 1.25;
+        margin: 10px 0;
+    }
+
+    footer .footer-n2 {
+        position: absolute;
+        left: 60%;
+        margin-top: 5%;
+        
+    }
+
+    header nav div ul li .botao {
+
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+}
